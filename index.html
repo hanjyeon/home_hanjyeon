@@ -35,6 +35,8 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+    <script> function message(){alert("열심히했다!");}</script>
 </head>
 
 <body>
@@ -130,12 +132,13 @@
     <section id="resume" class="resume">
       <div class="container">
 
-        <h2 class="mb-5">과제</h2>
+        <h2 class="mb-5">과제 <button id="bt" class="btn btn-outline-dark mb-4">.....</button> </h2>
+          <script>document.getElementById('bt').addEventListener('click', message);</script>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1" data-aos="fade-up">
                             <h3 class="mb-0">취업정보사(회원가입,로그인) 기본 html</h3>
                             <div class="subheading mb-3">웹프로그래밍 과제</div>
-                            <a href="assets/reports/index.html" class="fa-solid fa-3x fa-paperclip"></a>
+                            <a href="assets/reports/index.html" class="fa-solid fa-3x fa-paperclip" data-bs-toggle="tooltip" title=점수:20></a>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">2023.10.04</span></div>
                     </div>
@@ -144,18 +147,19 @@
                         <div class="flex-grow-1" data-aos="fade-up">
                             <h3 class="mb-0">취업정보계정만들기</h3>
                             <div class="subheading mb-3">웹프로그래밍 과제</div>
-                            <a href="assets/reports/report2.html" class="fa-solid fa-3x fa-paperclip"></a>
+                            <a href="assets/reports/report2.html" class="fa-solid fa-3x fa-paperclip" data-bs-toggle="tooltip" title=점수:18></a>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">2023.10.04</span></div>
                     </div>
 
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
+          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1" data-aos="fade-up">
                             <h3 class="mb-0">2진수 변환기, 파스칼 삼각형</h3>
                             <div class="subheading mb-3">웹프로그래밍 과제</div>
-                            <a class="social-icon" href="assets/reports/report4.html"><i class="fa-solid fa-3x fa-paperclip"></i></a>
+                            <a href="assets/reports/report4.html" class="fa-solid fa-3x fa-paperclip" data-bs-toggle="tooltip" title=점수:20></a>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2023.12.11</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">2023.10.04</span></div>
+                    </div>
                     </div>
 
       </div>
@@ -402,7 +406,9 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js">
+
+  </script>
 
 </body>
 
